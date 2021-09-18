@@ -1,0 +1,24 @@
+header.conteudo {
+    background: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -400px;
+    width: 100%;
+    height: 25vw;
+    text-align: center;
+}
+
+p.titulo {
+    box-sizing: border-box;
+    padding: 10%;
+    font-size: 5em;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
