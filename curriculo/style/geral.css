@@ -1,11 +1,10 @@
 * {
-    color: #B1D4E0;
-    color: #b2bbc2;
-    color: #2E8BC0;
-    color: #0C2D48;
-    color: #145DA0;
-
     margin: 0;
+    scroll-behavior: smooth;
+}
+
+.black {
+    color: black;
 }
 
 .josefin-sans {
@@ -64,12 +63,35 @@
 }
 
 .js, .vue, .html, .css, .php {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 4%;
 }
 
-.tecnologies {
-    border: 1px solid black;
+.technologies {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+    padding: 30px;
+    margin-top: 1em;
+    margin-left: 28%;
+    width: 30%;
+}
+
+.titulo-technologies {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.icones {
+    width: 20%;
+}
+
+.topico {
+    font-size: 1.5em;
+}
+
+.titulo-section{
+    font-size: 2em;
 }
 
 @media (min-width: 576px) { 
@@ -86,6 +108,16 @@
         margin-top: 2vw;
         margin-left: 7vw;
         margin-bottom: 1.5vw;
+    }
+    .technologies {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+        padding: 30px;
+        margin-top: 1em;
+        width: 90%;
+        margin-left: 2em;
+    }
+    .icones {
+        width: 100%;
     }
 }
 
