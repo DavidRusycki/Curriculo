@@ -11,84 +11,130 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./style/geral.css">
 
+    <!-- Links GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;600&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body onload="titulo.animacao()">
 
     <main class="document">
 
-        <header class="cabeca parallax parallax-conf bg1">
+        <header class="cabeca">
         
-            <p class="titulo">
-                David Rusycki
+            <p id="titulo" class="titulo josefin-sans">
+                I am Marcos
             </p> 
+            <p class="desc-titulo josefin-sans">
+                Web Developer
+            </p>
         
         </header>
 
-        <section class="section parallax-conf static">
+        <section class="text">
 
             <div class="conteudo">
                     
-                    <p class="texto">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel diam luctus, euismod mauris at,
-                        iaculis nisl. Pellentesque vulputate, nisl et venenatis semper, nisi sem pulvinar magna, vitae iaculis
-                        nunc ipsum a enim. Vestibulum sed tincidunt nibh. Vestibulum quam lectus, mollis sit amet tortor eget,
-                        porta venenatis diam. Nunc nec eros maximus, faucibus est non, blandit lorem. Curabitur et pulvinar
-                        turpis. Curabitur et risus eros. Proin convallis posuere mattis. Class aptent taciti sociosqu ad litora
-                        torquent per conubia nostra, per inceptos himenaeos. Vivamus sollicitudin porttitor eros, eget vulputate
-                        urna malesuada a. Fusce a laoreet libero, vitae hendrerit tortor. Maecenas eleifend ut risus nec
-                        fringilla. In in lectus eget eros cursus bibendum sed a neque. Suspendisse quis consequat lorem. Integer
-                        et laoreet ex, quis accumsan neque.
-                    </p>
+                <div class="topicos">
                     
-                    <p class="texto">
-                        Maecenas quam odio, blandit rutrum ante ac, ornare efficitur ex. Morbi ornare ligula ac nisi iaculis, et
-                        mollis sem bibendum. Nam tempus ex eu sagittis laoreet. Proin pellentesque ante nisi, ac tempor quam
-                        consectetur nec. Integer finibus, erat sit amet egestas tincidunt, mi nibh sagittis tortor, ac porttitor
-                        neque tortor mollis ipsum. Nam sagittis tempor quam nec aliquet. Duis eget laoreet nulla. Vivamus
-                        elementum ullamcorper ullamcorper. In sed lacus augue. Integer id tellus quam. Nunc rhoncus risus est,
-                        vitae pellentesque ipsum convallis eget. Nunc ut varius purus. Aliquam aliquet et lorem vel lacinia.
-                    </p>
-                    
-                    <p class="texto">
-                        Curabitur sodales lectus quis dolor efficitur rhoncus. Sed tristique lectus ut consectetur scelerisque.
-                        Phasellus molestie volutpat nunc ut tempus. Cras ac condimentum felis, vel fringilla ligula. Nulla eget
-                        consequat diam. Ut ac erat sagittis nisl vehicula ullamcorper. Duis in nunc interdum, hendrerit est in,
-                        mollis sem.
-                    </p>
-                    
-                    <p class="texto">
-                        In ac tincidunt magna. Aenean sit amet ligula imperdiet, tempor ex nec, ultrices sapien. Vestibulum
-                        dictum massa viverra, luctus quam et, lacinia nulla. Nam porttitor sit amet metus eget sollicitudin.
-                        Cras pretium, neque sit amet gravida finibus, dui tellus porttitor nulla, dictum feugiat mauris diam eu
-                        mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras mauris
-                        dolor, fermentum ac enim a, porttitor accumsan elit. Vestibulum ante ipsum primis in faucibus orci
-                        luctus et ultrices posuere cubilia curae; Nulla ac eros eleifend, sagittis metus a, pulvinar magna.
-                        Curabitur non tincidunt lectus. Ut vehicula dui ligula, sed volutpat mauris pretium id. Donec non nunc
-                        sodales, iaculis justo in, varius nisl. Vivamus iaculis purus mauris, eu aliquam nulla consectetur
-                        scelerisque.
-                    </p>
-                    
-                    <p class="texto">
-                        Morbi et ante velit. Nulla mattis ipsum vitae libero posuere semper. Quisque sed finibus tortor, ac
-                        mollis augue. Nullam eu volutpat erat. Ut quis dictum lorem. Curabitur vulputate, ex eu euismod
-                        faucibus, nisl quam bibendum est, a lacinia felis quam ut justo. Donec pharetra vehicula dui a
-                        consequat. Nulla diam purus, eleifend in urna ac, scelerisque facilisis nulla. Integer sit amet
-                        elementum tortor. Aliquam justo lacus, laoreet quis magna vitae, fringilla vulputate augue. Sed vitae
-                        pretium massa. Aliquam erat volutpat. Morbi sed sapien bibendum, facilisis ligula tempor, commodo nunc.
-                        Fusce luctus neque vel posuere suscipit.
-                    </p>
+                    <h2>Topics</h2>
+                    <ul>
+                        <li>
+                            <a href="#programim">Programim</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+
+                        </li>
+                        <li>
+                            <a href="#tecnologies">Tecnologies</a>
+
+                        </li>
+                    </ul>
                     
                 </div>
+
+                <p class="titulo-section">Me</p>
+                <p class="texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel diam luctus, euismod mauris at,
+                    iaculis nisl. Pellentesque vulputate, nisl et venenatis semper, nisi sem pulvinar magna, vitae iaculis
+                    nunc ipsum a enim. Vestibulum sed tincidunt nibh. Vestibulum quam lectus, mollis sit amet tortor eget,
+                    porta venenatis diam. Nunc nec eros maximus, faucibus est non, blandit lorem. Curabitur et pulvinar
+                    turpis. Curabitur et risus eros. Proin convallis posuere mattis. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Vivamus sollicitudin porttitor eros, eget vulputate
+                    urna malesuada a. Fusce a laoreet libero, vitae hendrerit tortor. Maecenas eleifend ut risus nec
+                    fringilla. In in lectus eget eros cursus bibendum sed a neque. Suspendisse quis consequat lorem. Integer
+                    et laoreet ex, quis accumsan neque.
+                </p>
+
+                <p class="titulo-section" id="programim" >Programim</p>
+                <p class="texto">
+                    Maecenas quam odio, blandit rutrum ante ac, ornare efficitur ex. Morbi ornare ligula ac nisi iaculis, et
+                    mollis sem bibendum. Nam tempus ex eu sagittis laoreet. Proin pellentesque ante nisi, ac tempor quam
+                    consectetur nec. Integer finibus, erat sit amet egestas tincidunt, mi nibh sagittis tortor, ac porttitor
+                    neque tortor mollis ipsum. Nam sagittis tempor quam nec aliquet. Duis eget laoreet nulla. Vivamus
+                    elementum ullamcorper ullamcorper. In sed lacus augue. Integer id tellus quam. Nunc rhoncus risus est,
+                    vitae pellentesque ipsum convallis eget. Nunc ut varius purus. Aliquam aliquet et lorem vel lacinia.
+                </p>
                 
-            </section>
+                <p class="titulo-section" id="experience">Experience</p>
+                <p class="texto">
+                    Curabitur sodales lectus quis dolor efficitur rhoncus. Sed tristique lectus ut consectetur scelerisque.
+                    Phasellus molestie volutpat nunc ut tempus. Cras ac condimentum felis, vel fringilla ligula. Nulla eget
+                    consequat diam. Ut ac erat sagittis nisl vehicula ullamcorper. Duis in nunc interdum, hendrerit est in,
+                    mollis sem.
+                </p>
+                
+                <p class="titulo-section" id="education" >Education</p>
+                <p class="texto">
+                    In ac tincidunt magna. Aenean sit amet ligula imperdiet, tempor ex nec, ultrices sapien. Vestibulum
+                    dictum massa viverra, luctus quam et, lacinia nulla. Nam porttitor sit amet metus eget sollicitudin.
+                    Cras pretium, neque sit amet gravida finibus, dui tellus porttitor nulla, dictum feugiat mauris diam eu
+                    mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras mauris
+                    dolor, fermentum ac enim a, porttitor accumsan elit. Vestibulum ante ipsum primis in faucibus orci
+                    luctus et ultrices posuere cubilia curae; Nulla ac eros eleifend, sagittis metus a, pulvinar magna.
+                    Curabitur non tincidunt lectus. Ut vehicula dui ligula, sed volutpat mauris pretium id. Donec non nunc
+                    sodales, iaculis justo in, varius nisl. Vivamus iaculis purus mauris, eu aliquam nulla consectetur
+                    scelerisque.
+                </p>
+
+                <section class="tecnologies">
+    
+                    <p class="titulo-tecnologies" >Tecnologies</p>
+                    
+                    <img class="js" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJfeDMxXzg3LWpzIj48Zz48cmVjdCBoZWlnaHQ9IjQ1OS45OTgiIHN0eWxlPSJmaWxsOiNGMERCNEY7IiB3aWR0aD0iNDU5Ljk5NiIgeD0iMjYuMDAyIiB5PSIyNi4wMDEiLz48cGF0aCBkPSJNMjc2LjMzMSwzODQuNzU5YzAsNDQuNzY3LTI2LjI4Niw2NS4yLTY0LjU4Niw2NS4yYy0zNC42MDEsMC01NC42MjMtMTcuODY1LTY0Ljg5Mi0zOS41MjkgICAgbDM1LjIxOC0yMS4yNTVjNi43NzcsMTIuMDEzLDEyLjkzOCwyMi4xNzcsMjcuODI2LDIyLjE3N2MxNC4xNjksMCwyMy4yMDctNS41NDQsMjMuMjA3LTI3LjIwOFYyMzcuMjFoNDMuMjI3VjM4NC43NTkgICAgTDI3Ni4zMzEsMzg0Ljc1OXoiIHN0eWxlPSJmaWxsOiMzMjMzMzA7Ii8+PHBhdGggZD0iTTM3OC41OTgsNDQ5Ljk1OWMtNDAuMTQ3LDAtNjYuMTI0LTE5LjA5OS03OC43NTQtNDQuMTUxbDM1LjIxOS0yMC4zMzIgICAgYzkuMjQxLDE1LjA5NSwyMS4zNTYsMjYuMjg2LDQyLjYxMSwyNi4yODZjMTcuODY2LDAsMjkuMzY0LTguOTMyLDI5LjM2NC0yMS4zNTVjMC0xNC43ODctMTEuNzA0LTIwLjAyMS0zMS41Mi0yOC43NWwtMTAuNzgxLTQuNjIgICAgYy0zMS4yMTQtMTMuMjQ2LTUxLjg1My0yOS45ODMtNTEuODUzLTY1LjJjMC0zMi40NDcsMjQuNzQ1LTU3LjA5LDYzLjI0OC01Ny4wOWMyNy41MTgsMCw0Ny4yMzIsOS41NDksNjEuNDAyLDM0LjYwMyAgICBsLTMzLjY3OSwyMS41NjJjLTcuMzkyLTEzLjI0Ni0xNS40MDEtMTguNDgxLTI3LjgyNS0xOC40ODFjLTEyLjYzLDAtMjAuNjM5LDguMDEtMjAuNjM5LDE4LjQ4MSAgICBjMCwxMi45MzgsOC4wMDksMTguMTc2LDI2LjU5NCwyNi4yODVsMTAuNzgsNC42MjFjMzYuNzU5LDE1LjcxLDU3LjM5NywzMS44MzIsNTcuMzk3LDY3Ljk3NCAgICBDNDUwLjE2NCw0MjguNjAyLDQxOS41NjUsNDQ5Ljk1OSwzNzguNTk4LDQ0OS45NTlMMzc4LjU5OCw0NDkuOTU5eiIgc3R5bGU9ImZpbGw6IzMyMzMzMDsiLz48L2c+PC9nPjxnIGlkPSJMYXllcl8xIi8+PC9zdmc+" alt="icone do javascript">
+                    <img class="vue" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlLz48cGF0aCBkPSJNMTkuMTk3IDEuNjA4bC4wMDMtLjAwNmgtNC40MjVMMTIgNi40di4wMDJsLTIuNzcyLTQuOEg0LjgwM3YuMDA1SDBsMTIgMjAuNzg2TDI0IDEuNjA4Ii8+PC9zdmc+" alt="icone do javascript">
+                    <img class="html" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGc+PHBvbHlnb24gZmlsbD0iI0U0NEQyNiIgcG9pbnRzPSIyNy4zNzcsMjguODg5IDE2LjAwMSwzMiA0LjYyNSwyOC44ODkgMiwwIDMwLjAwMiwwICAiLz48cG9seWdvbiBmaWxsPSIjRkY2QzM5IiBwb2ludHM9IjE2LDIgMTYsMjkuNzUgMjUuMjMyLDI3LjAwOCAyNy42ODgsMiAgIi8+PHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIyNC4zNjMsNiA3LjYwNyw2IDgsMTAgOC42MTksMTcgMTkuNTAzLDE3IDE5LjE0OCwyMC45ODQgMTYsMjEuOTkgMTIuODU3LDIwLjk4NCAxMi42NDgsMTkgICAgOC44MDMsMTkgOS4yNjIsMjMuOTg3IDE2LDI1Ljk5IDIyLjcyOCwyMy45ODYgMjMuNzE4LDEzIDEyLjI1MiwxMyAxMi4wMDIsMTAgMjQsMTAgICIvPjwvZz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" alt="icone do javascript">
+                    <img class="css" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGc+PHBvbHlnb24gZmlsbD0iIzFGNjJBRSIgcG9pbnRzPSIyNy4zNzcsMjguODg5IDE2LjAwMSwzMiA0LjYyNSwyOC44ODkgMiwwIDMwLjAwMiwwICAiLz48cG9seWdvbiBmaWxsPSIjMzQ3REM2IiBwb2ludHM9IjE2LDIgMTYsMjkuNzUgMjUuMjMyLDI3LjAwOCAyNy42ODgsMiAgIi8+PHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIyNC4zNjMsNiA3LjYwNyw2IDgsMTAgMTYsMTAgOC4yNSwxMi45OSA4LjYxOSwxNyAxOS41MDIsMTcgMTkuMTU4LDIxIDE2LDIxLjk5IDEyLjg2MSwyMC45ODQgICAgMTIuNTMzLDE5IDguODAzLDE5IDkuMjYyLDIzLjk4NyAxNiwyNS45OSAyMi43MjgsMjMuOTg2IDIzLjcxOSwxMi45OSAxNi4wMjYsMTIuOTkgMjQsMTAgICIvPjwvZz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" alt="icone do javascript">
+                    <img class="php" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJfeDMyXzU2LXBocCI+PGc+PGc+PHBhdGggZD0iTTI1Ni4wMDEsMTQ3LjEwOWMxMjMuMTkyLDAsMjE3LjkyMyw1MS44OTMsMjE3LjkyMywxMDguODlTMzc5LjEyLDM2NC44OSwyNTYuMDAxLDM2NC44OSAgICAgYy0xMjMuMTk0LDAtMjE3LjkyNS01MS44OTQtMjE3LjkyNS0xMDguODkxUzEzMi44NzgsMTQ3LjEwOSwyNTYuMDAxLDE0Ny4xMDkgTTI1Ni4wMDEsMTM1LjAzNCAgICAgYy0xMjcuMDA0LDAtMjMwLDU0LjEyMS0yMzAsMTIwLjk2NXMxMDIuOTk2LDEyMC45NjcsMjMwLDEyMC45NjdjMTI3LjAwMywwLDIyOS45OTgtNTQuMTIzLDIyOS45OTgtMTIwLjk2NyAgICAgUzM4My4wMDQsMTM1LjAzNCwyNTYuMDAxLDEzNS4wMzR6IE0xODIuODMxLDI0Ni4yOTZjLTUuNjc3LDI5LjEwOS0yNS43MywyNi4wOS01MC4zODQsMjYuMDlsOS44NDctNTAuNzQ0ICAgICBDMTY5LjYwNywyMjEuNjQzLDE4OC4xNSwyMTguNjk2LDE4Mi44MzEsMjQ2LjI5NkwxODIuODMxLDI0Ni4yOTZ6IE05Ni4wMDcsMzIzLjc3NmgyNi4zNzhsNi4yNTQtMzIuMTk5ICAgICBjMjkuNTQsMCw0Ny44NjcsMi4xNTcsNjQuODMtMTMuNzI4YzE4Ljc1OS0xNy4yNTEsMjMuNjQ2LTQ3Ljk0MSwxMC4yNzgtNjMuMzIyYy02Ljk3MS04LjA1LTE4LjE4NS0xMi4wMDMtMzMuNDIxLTEyLjAwM0gxMTkuNTEgICAgIEw5Ni4wMDcsMzIzLjc3NnogTTIyOS40NzgsMTcwLjI1M2gyNi4yMzVsLTYuMjU0LDMyLjE5OWMyMi42NCwwLDQzLjYyOC0xLjY1Myw1My43NjMsNy42OTEgICAgIGMxMC42MzgsOS43NzUsNS41MzUsMjIuMjgxLTUuOTY2LDgxLjI5MWgtMjYuNTk0YzExLjA2OS01Ny4wNjgsMTMuMTU0LTYxLjgxMiw5LjEyOC02Ni4xMjUgICAgIGMtMy44OC00LjE2OC0xMi43MjItMy4zMDYtMzQuMDY4LTMuMzA2bC0xMy41MTMsNjkuNDMxaC0yNi4yMzRMMjI5LjQ3OCwxNzAuMjUzTDIyOS40NzgsMTcwLjI1M3ogTTM4OC45NjksMjQ2LjI5NiAgICAgYy01Ljc1MSwyOS41NDItMjYuMzc5LDI2LjA5LTUwLjM4NSwyNi4wOWw5Ljg0Ny01MC43NDRDMzc1Ljg4NywyMjEuNjQzLDM5NC4yODcsMjE4LjY5NiwzODguOTY5LDI0Ni4yOTZ6IE0zMDIuMTQ1LDMyMy43NzYgICAgIGgyNi40NDlsNi4yNTQtMzIuMTk5YzMxLjA0OSwwLDQ4LjIyNywxLjc5Niw2NC44My0xMy43MjhjMTguNzU5LTE3LjI1MSwyMy42NDYtNDcuOTQxLDEwLjI3OS02My4zMjIgICAgIGMtNi45NzQtOC4wNS0xOC4xODYtMTIuMDAzLTMzLjQyMy0xMi4wMDNoLTUwLjgxNkwzMDIuMTQ1LDMyMy43NzZ6IiBzdHlsZT0iZmlsbDojMDA3QUZGOyIvPjwvZz48L2c+PC9nPjxnIGlkPSJMYXllcl8xIi8+PC9zdmc+" alt="icone do javascript">
+                
+                </section>
+                
+            </div>
+                
+        </section>
             
-        <footer class="pe parallax parallax-conf">
+        <footer class="pe">
+
+            <p>
+                Contato: curriculo.test@gmail.com
+            </p>
+            <p>
+                Endereço: Austin FN Brazil
+            </p>
 
         </footer>
 
     </main>
 
+    <script src="script/titulo.js"></script>
 </body>
 
 </html>
