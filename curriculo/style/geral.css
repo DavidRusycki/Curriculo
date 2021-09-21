@@ -47,11 +47,13 @@
 }
 
 .pe {
-    margin-top: 5vw;
-    margin-left: 7vw;
-    margin-bottom: 5vw;
-    width: 85%;
+    text-align: center;
     height: 5vw;
+    border-top: 1px solid black;
+    width: 100% !important;
+    margin: 0;
+    margin-left: 0px;
+    background: linear-gradient(104deg, rgba(162,162,162,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .titulo-section {
@@ -106,7 +108,6 @@
     }
     .pe {
         margin-top: 2vw;
-        margin-left: 7vw;
         margin-bottom: 1.5vw;
     }
     .technologies {
